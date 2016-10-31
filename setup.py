@@ -11,7 +11,7 @@ long_description = re.sub(
 
 setup(
     name='bumpversion-kando',
-    version='0.5.4',
+    version='0.5.5',
     url='https://github.com/peritus/bumpversion',
     author='Filip Noetzel',
     author_email='filip+bumpversion@j03.de',
