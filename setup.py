@@ -6,7 +6,7 @@ description = 'Version-bump your software with a single command!'
 long_description = re.sub(
   "\`(.*)\<#.*\>\`\_",
   r"\1",
-  str(open('README.rst', 'rb').read()).replace(description, '')
+  str(open('README.rst', 'r').read()).replace(description, '')
 )
 
 setup(
